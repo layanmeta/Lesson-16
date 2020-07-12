@@ -1,0 +1,48 @@
+1. מה פירוש overloading( העמסה(? מהו overloading constructor?
+overloading: 2 same methods but with different parameters 
+Constructor Overloading: when 2 ctor have the same name in the class
+
+2. מדוע כדאי להשתמש ב overloading?
+so its easier for the users to see, and its to redo a funcation in more than one way.
+
+3. איך אפשר לקרוא מבנאי אחד לבנאי אחר?
+.................
+4. מה פירוש virtual ?מתי נשתמש בהצהרה זו?
+virtual is keyword like override, and is used to modify methods and make them overriden
+
+5..האם לפונקציה המוגדרת כ virtual יש מימוש? האם הוא חובה?
+yes, no 
+
+6. האם חובה לממש פונקציה מסוג virtual במחלקה היורשת? מה יקרה אם לא נממש?
+no, if we dont then we wont be able to make another class that takes from this one, it wont be able to take the one that isnt virtual 
+
+7.  .למה לדעתך כאשר מגדירים פונקציה מסוג abstract אין צורך להוסיף את המילה virtual?
+because bastract and virtual are basically the same, so if we use one there is no need to use the other
+
+8. מה ההבדל בין virtual לבין abstract?
+With abstract you dont add info, you give the info in the son
+with virtual you add info right away
+
+9. מדוע כאשר אין בנאי default ומייצרים מחלקה יורשת מקבלים מיד שגיאת קומפילציה?
+כיצד ניתן להתגבר על הבעיה?
+because it has nothing to take from 
+make an abstract class
+
+10. כאשר מייצרים מחלקה ומחלקה יורשת ומייצרים מופע. מי נקרא קודם: הבנאי של המחלקה
+היורשת או של מחלקת האב?
+the dad's
+
+11.מאיזה מחלקה כל המחלקות יורשות )בסופו של דבר(? 
+
+from object
+
+12. איזה פונקציות קיימות במחלקה שכולם יורשים ממנה? נסה לחשוב אילו יתרונות זה מקנה?
+
+
+13.האם בכל פעם שמייצרים מופע של מחלקה שכתבתי נוצר מופע של מחלקת Object?
+
+yes
+
+
+
+
